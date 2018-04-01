@@ -34,3 +34,6 @@ urlpatterns = [
 # def include(arg, namespace=None, app_name=None):
 #  第一个参数是 instance namespace 只能在项目的urls定义
 #  第二个参数是 app namespace  （可以在 总urls 和app的urls里面定义）
+# 使用方法有两种：1 只在项目URL中写namespace
+#               2.只在app的URL中写app_name
+#               3.在项目的url中写app_name 和 namespace
